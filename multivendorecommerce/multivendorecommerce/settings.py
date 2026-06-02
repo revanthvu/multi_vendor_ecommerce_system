@@ -77,14 +77,13 @@ WSGI_APPLICATION = 'multivendorecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'flipazondb',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'mIjiPGFZhnJDTHQIzuOFkGwBNsFoZROR',
+        'HOST': 'zephyr.proxy.rlwy.net',
+        'PORT': '49916',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
