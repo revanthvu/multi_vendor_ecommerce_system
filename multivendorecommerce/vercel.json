@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "multivendorecommerce/wsgi.py",
+      "src": "manage.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "multivendorecommerce/wsgi.py"
+      "dest": "manage.py"
     }
   ]
 }
